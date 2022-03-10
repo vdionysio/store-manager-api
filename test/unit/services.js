@@ -6,11 +6,11 @@ const { getConnection } = require('./mongoMockConnection');
 
 require('dotenv').config();
 
-const ProductModel = require('../../models/ProductModel');
-const ProductService = require('../../services/ProductService');
+const ProductModel = require('../../src/models/ProductModel');
+const ProductService = require('../../src/services/ProductService');
 
-const SalesModel = require('../../models/SalesModel');
-const SalesService = require('../../services/SalesService');
+const SalesModel = require('../../src/models/SalesModel');
+const SalesService = require('../../src/services/SalesService');
 
 /* PRODUCTS */
 

@@ -7,8 +7,8 @@ const { getConnection } = require('./mongoMockConnection');
 
 require('dotenv').config();
 
-const ProductModel = require('../../models/ProductModel');
-const SalesModel = require('../../models/SalesModel');
+const ProductModel = require('../../src/models/ProductModel');
+const SalesModel = require('../../src/models/SalesModel');
 
 /* PRODUCTS */
 
